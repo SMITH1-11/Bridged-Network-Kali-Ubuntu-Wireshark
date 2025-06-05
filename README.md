@@ -14,8 +14,12 @@ Wireshark was installed on the Ubuntu virtual machine using the following comman
 
 **Step 3:** Network Connectivity Test
 Network connectivity between the two virtual machines was tested by pinging Kali Linux from Ubuntu and vice versa. The connection was successful.
+
+![Image](https://github.com/user-attachments/assets/04903c00-4320-48c2-aa69-dbda7cf8089f)
 From Ubuntu to Kali Linux:
-`ping 192.168.0.169`   
+`ping 192.168.0.169`  
+
+
 
 
 
