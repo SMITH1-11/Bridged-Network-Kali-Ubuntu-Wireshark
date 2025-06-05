@@ -10,10 +10,14 @@ A bridged network adapter was configured for both the Kali Linux and Ubuntu virt
 Wireshark was installed on the Ubuntu virtual machine using the following commands:
 `sudo add-apt-repository ppa:wireshark-dev/stable`
 
+![Image](https://github.com/user-attachments/assets/b13d535e-f1c0-4895-afe9-46543dab3530)
+
 **Step 3:** Network Connectivity Test
 Network connectivity between the two virtual machines was tested by pinging Kali Linux from Ubuntu and vice versa. The connection was successful.
 From Ubuntu to Kali Linux:
-`ping 192.168.0.169`    
+`ping 192.168.0.169`   
+
+
 
 From kali linux to ubuntu
 `ping 192.168.0.121`
