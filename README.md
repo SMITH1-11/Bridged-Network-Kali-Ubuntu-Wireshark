@@ -19,9 +19,7 @@ Network connectivity between the two virtual machines was tested by pinging Kali
 From Ubuntu to Kali Linux:
 `ping 192.168.0.169`  
 
-
-
-
+![Image](https://github.com/user-attachments/assets/0b683c30-8042-4498-accf-50fa488a87ab)
 
 From kali linux to ubuntu
 `ping 192.168.0.121`
