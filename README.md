@@ -31,7 +31,10 @@ Network traffic was monitored in real time while performing actions such as brow
 ![Image](https://github.com/user-attachments/assets/addbbb66-adcc-4b2e-a995-b7f140def3a2)
 - TCP packets
 
+![Image](https://github.com/user-attachments/assets/21e2697a-cdea-4446-88dc-f73f00ceb6c0)
 - ICMP packets
+
+ ![Image](https://github.com/user-attachments/assets/6237d1c9-936d-4893-942d-4511e63443c3)
 - UDP packets
 
 Filters Used in Wireshark:
@@ -55,6 +58,7 @@ Each filter helped isolate specific types of traffic to better understand protoc
 To generate HTTP traffic, the `curl` command was executed on the Ubuntu virtual machine, with the command:
 
 `curl -I http://altschoolafrica.com.`
+![Image](https://github.com/user-attachments/assets/f5f02261-e209-4494-bf17-5a56b166d3c3)
 
 While the command was running, Wireshark was actively capturing traffic on the network interface.
 A http filter (http) was applied in Wireshark to isolate the packets related to the request.
