@@ -28,8 +28,9 @@ From kali linux to ubuntu
 Wireshark was opened on the Ubuntu virtual machine, and the active network interface (`enp0s3`) was selected for live packet capturing.
                                                                                                                                                                        
 Network traffic was monitored in real time while performing actions such as browsing, pinging, and DNS lookups. The following packet types were captured and filtered for analysis:
-
+![Image](https://github.com/user-attachments/assets/addbbb66-adcc-4b2e-a995-b7f140def3a2)
 - TCP packets
+
 - ICMP packets
 - UDP packets
 
